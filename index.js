@@ -1,7 +1,7 @@
 const { default: axios } = require("axios");
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 8080;
 
 const URL =
   "https://www.alphavantage.co/query?function=RSI&symbol=EURUSD&interval=60min&time_period=14&series_type=open&apikey=L1JJOTO2HZTSENMI";
